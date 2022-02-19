@@ -21,11 +21,12 @@ To start using this extension simply clone and add it to your chrome extensions,
 
 
 
-**DISCLAIMER :-
+DISCLAIMER :-
 This extension is not yet published and has no coyrights, all the credit goes to respective owners of APIs and Websockets.
 
 
 
 Credits:-
-xchangeapi
-Binance **
+
+xchangeapi,
+Binance
