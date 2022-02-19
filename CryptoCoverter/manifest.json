@@ -1,0 +1,25 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+
+  "name": "Crypto Converter",
+  "version": "1.0",
+  "description": "Converts INR to CryptoCoin",
+  "icons": { "128": "icon_dark.png" },
+
+  "browser_action": {
+    "name": "Dollar sign",
+    "default_popup": "popup.html",
+    "icons": ["icon_dark.png"],
+    "default_icon": "icon_dark.png"
+  },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["js/jquery-3.2.1.min.js", "js/content.js"],
+    "matches": ["https://www.flipkart.com/*"]
+  }]
+
+
+}
